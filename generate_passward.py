@@ -13,7 +13,7 @@ def generate_password(min_length, numbers=True, special_characters=True):
         characters += special
 
     pwd = ""
-    
+    meets_criteria = False
 
 
     
