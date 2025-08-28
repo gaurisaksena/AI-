@@ -14,6 +14,11 @@ def generate_password(min_length, numbers=True, special_characters=True):
 
     pwd = ""
     meets_criteria = False
+    has_number = False
+    has_special = False
+
+    while not meets_criteria or len(pwd) < min_length:
+        
 
 
     
