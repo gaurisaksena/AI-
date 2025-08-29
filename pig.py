@@ -1,0 +1,12 @@
+# pig is a simple game that i will be creating using python
+# it starts with your turn and you get to roll a dice 
+# if you get anything but one you get to add that to your score 
+# you can decide how many times you want to roll the dice
+# the catch is if you got a one then your score becomes zero
+# its upto you if you want to gamble 
+# our max score is 50. whoever hits 50 first is the winner.
+
+"""first we have to do is: let the user roll the dice
+for this we need to generate random numbers between 1-6
+"""
+
