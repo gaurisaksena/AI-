@@ -8,5 +8,19 @@
 
 """first we have to do is: let the user roll the dice
 for this we need to generate random numbers between 1-6
+
+second we need to ask the user if they want to continue to role
+if no then we need to take their score and add it to their total score
+
+third we have to check if the score >= 50 
+if the score is equal to 50 we have to end the game
 """
+import random
+
+def roll():
+    min_value = 1
+    max_value = 6
+    roll = random.radint(min_value, max_value)
+
+    return roll
 
