@@ -27,3 +27,6 @@ def roll():
 value = roll()
 print(value)
 
+# Loading the Dataset and Displaying the First few Rows
+iris_data = pd.read_csv('iris.csv')
+iris_data.head()
